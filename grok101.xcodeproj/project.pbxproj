@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03A19633EFE2F08E38ADFD3D /* Pods_grok101.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93F3C986D40C6EF33AA9E34 /* Pods_grok101.framework */; };
+		CF015AE61DC5091E00C0BA3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF015AE51DC5091E00C0BA3D /* AppDelegate.swift */; };
+		CF015AE81DC5091E00C0BA3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF015AE71DC5091E00C0BA3D /* ViewController.swift */; };
+		CF015AEB1DC5091E00C0BA3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF015AE91DC5091E00C0BA3D /* Main.storyboard */; };
+		CF015AED1DC5091E00C0BA3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF015AEC1DC5091E00C0BA3D /* Assets.xcassets */; };
+		CF015AF01DC5091E00C0BA3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF015AEE1DC5091E00C0BA3D /* LaunchScreen.storyboard */; };
+		CF015AF81DC5197100C0BA3D /* TodoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF015AF71DC5197100C0BA3D /* TodoRouter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02D455C18688B59F22F5D33D /* Pods-grok101.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grok101.release.xcconfig"; path = "Pods/Target Support Files/Pods-grok101/Pods-grok101.release.xcconfig"; sourceTree = "<group>"; };
+		3CF0596A7FDF5DE545562524 /* Pods-grok101.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grok101.debug.xcconfig"; path = "Pods/Target Support Files/Pods-grok101/Pods-grok101.debug.xcconfig"; sourceTree = "<group>"; };
+		C93F3C986D40C6EF33AA9E34 /* Pods_grok101.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_grok101.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF015AE21DC5091E00C0BA3D /* grok101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grok101.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF015AE51DC5091E00C0BA3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF015AE71DC5091E00C0BA3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF015AEA1DC5091E00C0BA3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF015AEC1DC5091E00C0BA3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF015AEF1DC5091E00C0BA3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF015AF11DC5091E00C0BA3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF015AF71DC5197100C0BA3D /* TodoRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoRouter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF015ADF1DC5091E00C0BA3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A19633EFE2F08E38ADFD3D /* Pods_grok101.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64CCE659E2AB25A83C50EA09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CF0596A7FDF5DE545562524 /* Pods-grok101.debug.xcconfig */,
+				02D455C18688B59F22F5D33D /* Pods-grok101.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		97364AAA754C06BD2A683328 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C93F3C986D40C6EF33AA9E34 /* Pods_grok101.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF015AD91DC5091E00C0BA3D = {
+			isa = PBXGroup;
+			children = (
+				CF015AE41DC5091E00C0BA3D /* grok101 */,
+				CF015AE31DC5091E00C0BA3D /* Products */,
+				64CCE659E2AB25A83C50EA09 /* Pods */,
+				97364AAA754C06BD2A683328 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF015AE31DC5091E00C0BA3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF015AE21DC5091E00C0BA3D /* grok101.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF015AE41DC5091E00C0BA3D /* grok101 */ = {
+			isa = PBXGroup;
+			children = (
+				CF015AE51DC5091E00C0BA3D /* AppDelegate.swift */,
+				CF015AE71DC5091E00C0BA3D /* ViewController.swift */,
+				CF015AF71DC5197100C0BA3D /* TodoRouter.swift */,
+				CF015AE91DC5091E00C0BA3D /* Main.storyboard */,
+				CF015AEC1DC5091E00C0BA3D /* Assets.xcassets */,
+				CF015AEE1DC5091E00C0BA3D /* LaunchScreen.storyboard */,
+				CF015AF11DC5091E00C0BA3D /* Info.plist */,
+			);
+			path = grok101;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF015AE11DC5091E00C0BA3D /* grok101 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF015AF41DC5091E00C0BA3D /* Build configuration list for PBXNativeTarget "grok101" */;
+			buildPhases = (
+				5A11C60D3F2DB4489BB0AD03 /* [CP] Check Pods Manifest.lock */,
+				CF015ADE1DC5091E00C0BA3D /* Sources */,
+				CF015ADF1DC5091E00C0BA3D /* Frameworks */,
+				CF015AE01DC5091E00C0BA3D /* Resources */,
+				84DB6A82710BD7C4620FFB3F /* [CP] Embed Pods Frameworks */,
+				BF24BE46C07B4B8917871471 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = grok101;
+			productName = grok101;
+			productReference = CF015AE21DC5091E00C0BA3D /* grok101.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF015ADA1DC5091E00C0BA3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Teak Mobile Inc";
+				TargetAttributes = {
+					CF015AE11DC5091E00C0BA3D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 87PYA4QFSY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CF015ADD1DC5091E00C0BA3D /* Build configuration list for PBXProject "grok101" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF015AD91DC5091E00C0BA3D;
+			productRefGroup = CF015AE31DC5091E00C0BA3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF015AE11DC5091E00C0BA3D /* grok101 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF015AE01DC5091E00C0BA3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF015AF01DC5091E00C0BA3D /* LaunchScreen.storyboard in Resources */,
+				CF015AED1DC5091E00C0BA3D /* Assets.xcassets in Resources */,
+				CF015AEB1DC5091E00C0BA3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A11C60D3F2DB4489BB0AD03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		84DB6A82710BD7C4620FFB3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-grok101/Pods-grok101-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF24BE46C07B4B8917871471 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-grok101/Pods-grok101-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF015ADE1DC5091E00C0BA3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF015AF81DC5197100C0BA3D /* TodoRouter.swift in Sources */,
+				CF015AE81DC5091E00C0BA3D /* ViewController.swift in Sources */,
+				CF015AE61DC5091E00C0BA3D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF015AE91DC5091E00C0BA3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF015AEA1DC5091E00C0BA3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF015AEE1DC5091E00C0BA3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF015AEF1DC5091E00C0BA3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF015AF21DC5091E00C0BA3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF015AF31DC5091E00C0BA3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF015AF51DC5091E00C0BA3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CF0596A7FDF5DE545562524 /* Pods-grok101.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87PYA4QFSY;
+				INFOPLIST_FILE = grok101/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grokswift.grok101;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CF015AF61DC5091E00C0BA3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02D455C18688B59F22F5D33D /* Pods-grok101.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87PYA4QFSY;
+				INFOPLIST_FILE = grok101/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grokswift.grok101;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF015ADD1DC5091E00C0BA3D /* Build configuration list for PBXProject "grok101" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF015AF21DC5091E00C0BA3D /* Debug */,
+				CF015AF31DC5091E00C0BA3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF015AF41DC5091E00C0BA3D /* Build configuration list for PBXNativeTarget "grok101" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF015AF51DC5091E00C0BA3D /* Debug */,
+				CF015AF61DC5091E00C0BA3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF015ADA1DC5091E00C0BA3D /* Project object */;
+}
